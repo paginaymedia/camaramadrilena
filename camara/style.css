@@ -1,0 +1,369 @@
+@font-face {
+    font-family: 'Gilroy-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-display: auto;
+    src: url('https://www.camaramadrilena.org/wp-content/themes/camara/assets/fonts/Gilroy-Regular.eot');
+    src: url('https://www.camaramadrilena.org/wp-content/themes/camara/assets/fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('https://www.camaramadrilena.org/wp-content/themes/camara/assets/fonts/Gilroy-Regular.woff2') format('woff2'),
+        url('https://www.camaramadrilena.org/wp-content/themes/camara/assets/fonts/Gilroy-Regular.woff') format('woff'),
+        url('https://www.camaramadrilena.org/wp-content/themes/camara/assets/fonts/Gilroy-Regular.ttf') format('truetype'),
+        url('https://www.camaramadrilena.org/wp-content/themes/camara/assets/fonts/Gilroy-Regular.svg#Gilroy-Regular') format('svg');
+}
+/* End Custom Fonts CSS */
+@font-face {
+    font-family: 'Gilroy-UltraLight';
+    font-style: normal;
+    font-weight: normal;
+    font-display: auto;
+    src: url('https://www.camaramadrilena.org/wp-content/themes/camara/assets/fonts/Gilroy-UltraLight.eot');
+    src: url('https://www.camaramadrilena.org/wp-content/themes/camara/assets/fonts/Gilroy-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('https://www.camaramadrilena.org/wp-content/themes/camara/assets/fonts/Gilroy-UltraLight.woff2') format('woff2'),
+        url('https://www.camaramadrilena.org/wp-content/themes/camara/assets/fonts/Gilroy-UltraLight.woff') format('woff'),
+        url('https://www.camaramadrilena.org/wp-content/themes/camara/assets/fonts/Gilroy-UltraLight.ttf') format('truetype'),
+        url('https://www.camaramadrilena.org/wp-content/themes/camara/assets/fonts/Gilroy-UltraLight.svg#Gilroy-UltraLight') format('svg');
+}
+
+@font-face {
+    font-family: 'Gilroy-Semibold';
+    font-style: normal;
+    font-weight: bold;
+    font-display: auto;
+    src: url('https://www.camaramadrilena.org/wp-content/themes/camara/assets/fonts/Gilroy-Semibold.eot');
+    src: url('https://www.camaramadrilena.org/wp-content/themes/camara/assets/fonts/Gilroy-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('https://www.camaramadrilena.org/wp-content/themes/camara/assets/fonts/Gilroy-Semibold.woff2') format('woff2'),
+        url('https://www.camaramadrilena.org/wp-content/themes/camara/assets/fonts/Gilroy-Semibold.woff') format('woff'),
+        url('https://www.camaramadrilena.org/wp-content/themes/camara/assets/fonts/Gilroy-Semibold.ttf') format('truetype'),
+        url('https://www.camaramadrilena.org/wp-content/themes/camara/assets/fonts/Gilroy-Semibold.svg#Gilroy-Semibold') format('svg');
+}
+
+@font-face {
+    font-family: 'Gilroy-Light';
+    font-style: normal;
+    font-weight: normal;
+    font-display: auto;
+    src: url('https://www.camaramadrilena.org/wp-content/themes/camara/assets/fonts/Gilroy-Light.eot');
+    src: url('https://www.camaramadrilena.org/wp-content/themes/camara/assets/fonts/Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+        url('https://www.camaramadrilena.org/wp-content/themes/camara/assets/fonts/Gilroy-Light.woff2') format('woff2'),
+        url('https://www.camaramadrilena.org/wp-content/themes/camara/assets/fonts/Gilroy-Light.woff') format('woff'),
+        url('https://www.camaramadrilena.org/wp-content/themes/camara/assets/fonts/Gilroy-Light.ttf') format('truetype'),
+        url('https://www.camaramadrilena.org/wp-content/themes/camara/assets/fonts/Gilroy-Light.svg#Gilroy-Light') format('svg');
+}
+/* End Custom Fonts CSS */
+@font-face {
+    font-family: 'Gilroy-Medium';
+    font-style: normal;
+    font-weight: normal;
+    font-display: auto;
+    src: url('https://www.camaramadrilena.org/wp-content/themes/camara/assets/fonts/Gilroy-Medium.eot');
+    src: url('https://www.camaramadrilena.org/wp-content/themes/camara/assets/fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+        url('https://www.camaramadrilena.org/wp-content/themes/camara/assets/fonts/Gilroy-Medium.woff2') format('woff2'),
+        url('https://www.camaramadrilena.org/wp-content/themes/camara/assets/fonts/Gilroy-Medium.woff') format('woff'),
+        url('https://www.camaramadrilena.org/wp-content/themes/camara/assets/fonts/Gilroy-Medium.ttf') format('truetype'),
+        url('https://www.camaramadrilena.org/wp-content/themes/camara/assets/fonts/Gilroy-Medium.svg#Gilroy-Medium') format('svg');
+}
+/* End Custom Fonts CSS */
+html,body{
+    font-family:  "Gilroy-Regular";
+    scroll-behavior: smooth;
+}
+.sidenav-trigger{
+    font-size: 50px;
+    color: #303030;
+}
+.franjasuperior a{
+    color:#fff;
+    font-size: 16px
+}
+@media(max-width:601px){
+    #cta{
+        display:block !important;
+    }
+    #logo{
+        height: initial
+    }
+    footer li{
+        width: 100%;
+        text-align: center
+
+    }
+    footer ul{
+        display: block !important
+    }
+    .wp-block-column {
+        margin-left:0px !important;
+        flex-basis:calc(100%) !important;
+        text-align: justify;
+        font-size: 1.4rem
+    }
+}
+.franjasuperior{
+    background:#303030;
+    height: 25px
+}
+.logocontainer, .logocontainer a, .logocontainer img{
+    height: 80px
+}
+.franjasuperior{
+    margin-bottom: 15px
+}
+#logo{
+    max-width: 100%
+}
+.menucontainer a{
+    color: #303030;
+    height: 80px;
+    vertical-align: bottom;
+    display: table-cell;
+    line-height: 2;
+    text-transform: uppercase;
+    padding: 0px 8px;
+
+}
+.menucontainer a:hover::after{
+    width: 100% !important;
+    transform: escale(1);
+    transition: .3s;
+    transition-timing-function: cubic-bezier(.58,.3,.005,1)
+
+}
+.menucontainer a:after{
+    background-color:#ff0014 !important;
+    content: "";
+    bottom: 0;
+    width: 0%;
+    height: 3px;
+    display: block
+}
+.franjainferior:after{
+    background-color:#303030 !important;
+    content: "";
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    display: block;
+    transform: scaleX(0);
+    transition: all 0.6s ease-in-out    
+
+}
+.fijado:after{
+    transform: scaleX(1)
+}
+.fijado{
+    position:fixed;
+    width:100%;
+    background: #fff;
+    top: 0px;
+    z-index:1000;
+    padding-top:14px
+}
+.menucontainer ul ul{
+    display: none
+}
+
+.botonpresupuesto a,.botonenviarmail a{
+    background-color:#ff0014 !important;
+    box-shadow: none;
+    font-weight: bold;
+    padding: 1px;
+    width: 100%;
+    margin-top:20px
+}
+nav > ul > .current-menu-item :after{
+    width:  100% !important
+}
+.botonpresupuesto a:hover{
+    box-shadow: none
+}
+.slogan{
+    font-size: 250%;
+    margin: 5% !important;
+    font-family: 'Gilroy-Regular';
+font-weight: 500;
+color: #303030;
+background: #ffffffc7;
+padding: 20px !important;
+border-radius: 5px;
+}
+.slogan2 h3{
+    font-size: 2rem !important;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 0px !important
+
+
+}
+.card-servicio{
+    margin: 2rem 1rem !important;
+    box-shadow: 0px 2px 25px 0px rgba(0, 0, 0, 0.13) !important
+}
+.card-servicio img{
+    opacity: 0.6
+
+
+}
+.card-servicio .card-title{
+    font-weight: bold !important;
+    padding: 20px 24px 0px 24px;
+
+}
+.card-servicio:hover img{
+    opacity: 1;
+    transition: all 1s ease
+}
+.card-servicio .card-title{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+.servicio-desc{
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    height: 85px;
+    margin: 0 auto;
+    font-size:18px;
+    line-height: 1.5;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.linea-naranja{
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffab40;
+}
+.linea-naranja .enlace{
+    line-height: 1;
+    padding: 0px !important
+}
+.linea-naranja .linea{
+    background: url('/wp-content/themes/camara/assets/images/linea.jpg');
+    background-repeat: repeat-x;
+}
+.card-servicio .card-action{
+    border-top: 0px !important;
+    padding: 0px 24px 10px 24px !important
+}
+article{
+    font-size: 1.5em
+}
+article h2{
+    font-size: 2rem
+}
+.oficina{
+    font-size: 1.8em
+}
+.oficina input:focus{
+    border-bottom:#ffab40 !important;
+    box-shadow: 0 1px 0 0 #ffab40 !important;
+
+}
+.menucontainer li:hover ul, .submenu:hover{
+    display: block;
+    position: absolute;
+    z-index: 5000;
+    background:#fff;
+    box-shadow: 2px 15px 15px 0px rgba(0,0,0,0.2);
+}
+.menucontainer ul li ul li{
+    float: none
+}
+.menucontainer ul li ul li a{
+    height: 40px !important;
+}
+.wp-block-column{
+    width:30%;
+    flex-basis:calc(40%);
+
+}
+.wp-block-column:not(:first-child){
+    margin-left:9%;
+    flex-basis:calc(50%);
+    text-align: justify;
+    font-size: 1.4rem
+}
+.alineado-centro {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+.serviciotitle{
+    position: absolute
+}
+.franja1{
+    padding: 50px 0px;
+    margin: 50px 0px;
+}
+.flex{
+    display: flex
+}
+.franja img{
+    max-width: 100%
+}
+.franja h4{
+    color: #fff;
+    font-weight: 600
+}
+footer{
+    background: #303030;
+    min-height: 250px
+}
+.linkedinarchor{
+    margin: 15px;
+    display: block
+}
+footer ul{
+    display: flex;
+    justify-content: center
+
+}
+#cta{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#cta .row{
+
+    margin: 0px;
+    padding: 0px
+}
+#cta .botonpresupuesto a{
+    border-top: 2px solid #303030;
+    background: #f73241
+
+}
+.botonllamar a {
+    border-top: 2px solid #303030;
+    background-color: #f9b259 !important;
+    box-shadow: none;
+    font-weight: bold;
+    padding: 1px;
+    width: 100%;
+    margin-top: 20px;
+
+}
+#cta .col{
+    margin: 0px;
+    padding: 0px
+}
+.btn-warning{
+    box-shadow: none !important;
+    background-color: #f9b259 !important;
+    border: 0px;
+    animation: all 0.5s ease;
+    padding: 25px
+}
+.btn-warning:hover{
+    background: #ffab40 !important;
+}
